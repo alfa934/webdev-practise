@@ -7,6 +7,11 @@
     <title>🐣 Birds Birds Birds</title>
 
     <style>
+        img.birdpicture {
+            width:20rem;
+            height:16rem;
+            border-radius: 5px;
+        }
         a.button {
             text-decoration: none;
             padding: 1rem 1.5rem;
@@ -29,6 +34,12 @@
             text-align: center;
         }
         ol.goals {
+            color: aliceblue;
+            border-radius: 5px;
+            padding: 2rem 2rem;
+            background: #ee0979; /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #ee0979, #ff6a00); /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #ee0979, #ff6a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             display:inline-block;
             text-align: left;
         }
@@ -40,24 +51,24 @@
     <div class="intro">
         <h1>I Really Like Birds 👻</h1>
 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" 
-        width="400"
-        height="300"
+        <img class="birdpicture" src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Gull_portrait_ca_usa.jpg" 
         alt="someFunnyBird">
 
-        <p><b>Do you like them?</b></p>
+        <p><b>Do you like them? 😏</b></p>
         <br>
         <a class="button" href="https://github.com/alfa934"
         target="_blank">My GitHub!</a>
     </div>
-    <br>
+    <br> <br>
     <hr>
     <div class="list">
         <h3>A list before I forget 😀</h3>
         <ol class="goals">
-            <li>Practise coding</li>
-            <li>Study stuff</li>
-            <li>Sleep</li>
+            <b>
+                <li>Practise coding</li>
+                <li>Study stuff</li>
+                <li>Sleep</li>
+            </b>
         </ol>
     </div>
 </body>
