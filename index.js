@@ -1,4 +1,4 @@
-var megamind = document.querySelectorAll("megamind");
+var megamind = document.querySelectorAll(".imgContainer");
 
 megamind.forEach(megamind => {
   megamind.addEventListener("click", myFunction);
