@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    height: 4rem;
+    background-color: aqua;
+}
+
+.NavContainer {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.left-nav {
+    float: left;
+}
+
+.right-nav {
+    float: right;
+    
+}
+
+.left-nav a, .right-nav a {
+    line-height: 4rem;
+    color: blue;
+    padding: 0 1rem;
+    display: block;
+    float: left;
+    transition: 0.15s;
+}
+
+.left-nav :hover, .right-nav :hover {
+    background-color: blue;
+    color: aqua;
+}
+
+.imgContainer {
+    margin: 5rem 0;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 5rem;
+
+}
+
+.imgContainer img {
+    border-radius: 10px;
+}
