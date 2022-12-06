@@ -10,7 +10,7 @@ a {
 }
 
 nav {
-    height: 4rem;
+    height: 71px;
     background-color: aqua;
 }
 
@@ -29,7 +29,8 @@ nav {
 }
 
 .left-nav a, .right-nav a {
-    line-height: 4rem;
+    border-style: dashed;
+    line-height: 65px;
     color: blue;
     padding: 0 1rem;
     display: block;
@@ -53,4 +54,10 @@ nav {
 
 .imgContainer img {
     border-radius: 10px;
+    transition: 0.35s;
+}
+
+.imgContainer img:hover {
+    transform: scale(1.15);
+	cursor: pointer;
 }
