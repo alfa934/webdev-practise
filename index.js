@@ -1,4 +1,8 @@
-document.getElementById("megamind").addEventListener("click", myFunction);
+var megamind = document.querySelectorAll("megamind");
+
+megamind.forEach(megamind => {
+  megamind.addEventListener("click", myFunction);
+});
 
 function myFunction() {
     alert("No Bitches??? 😳😳😳");
